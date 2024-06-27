@@ -13,3 +13,6 @@ app.get("/",(req,res)=>{
     res.send("Sorry haven't made any ejs file to render");
     console.log("Alright they've asked for it now");
 })
+app.post("/",(req,res)=>{
+    console.log(req.body);
+})
